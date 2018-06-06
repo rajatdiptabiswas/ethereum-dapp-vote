@@ -1,0 +1,81 @@
+#col-1 {
+    background-image: url(kim.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#col-2 {
+    background-image: url(trump.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#col-3 {
+    background-image: url(putin.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    flex-direction: row;
+    color: aliceblue;
+    text-shadow: 1px 1px 12px #000;
+}
+
+#name {
+    font-family: Donegal One;
+    font-size: 40px;
+}
+
+#quote {
+    font-style: italic;
+}
+
+#vote p {
+    margin: 0px;
+}
+
+.button {
+    color: azure;
+    background-color: royalblue;
+    padding: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+.container div {
+    flex: 1;
+    padding: 24px;
+    font-family: Montserrat;
+    position: relative;
+}
+
+.container div a {
+    position: absolute;
+    bottom: 48px;
+    right: 24px;
+}
+
+.container div div {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+}
+
+/*
+* {
+    border: 1px solid #000;
+}*/

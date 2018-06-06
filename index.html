@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <title>Ethereum DApp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Donegal+One:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="container">
+        <div id="col-1">
+            <h1 id="name">Kim Jong-un</h1>
+            <p id="quote">"We will not hesitate to slap them"</p>
+            <div id="vote">
+                <p>votes</p>
+                <p id="candidate-0" style="font-size:120px">0</p>
+            </div>
+            <a href="#" class="button" onclick="voteForCandidate(0)">Vote Kim</a>
+        </div>
+        <div id="col-2">
+            <h1 id="name">Donald Trump</h1>
+            <p id="quote">"My nuclear button is much bigger than yours"</p>
+            <div id="vote">
+                <p>votes</p>
+                <p id="candidate-1" style="font-size:120px">0</p>
+            </div> 
+            <a href="#" class="button" onclick="voteForCandidate(1)">Vote Trump</a>
+        </div>
+        <div id="col-3">
+            <h1 id="name">Vladimir Putin</h1>
+            <p id="quote">"I spend a little time every day to play sports"</p>
+            <div id="vote">
+                <p>votes</p>
+                <p id="candidate-2" style="font-size:120px">0</p>
+            </div>
+            <a href="#" class="button" onclick="voteForCandidate(2)">Vote Putin</a>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="./index.js"></script>
+</html>
