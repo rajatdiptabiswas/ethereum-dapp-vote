@@ -82,7 +82,7 @@ contractInstance = votingContract.at('0x3b08aa4681a7b4757287d9e7afef9fecbf51f782
 
 See also the list of [contributors](https://github.com/rajatdiptabiswas/ethereum-dapp-vote/graphs/contributors) who participated in this project.
 
-## Acknowledgments
+## Acknowledgements
 
 * [Zastrin](https://www.zastrin.com)
 * FreeCodeCamp - [A guide to developing an Ethereum decentralized voting application](https://medium.freecodecamp.org/developing-an-ethereum-decentralized-voting-application-a99de24992d9)
